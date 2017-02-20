@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{685F2E74-B205-4E44-9C34-03EEC57C9A2B}</ProjectGuid>
+    <ProjectGuid>{A7BDE2C6-57C0-4F47-A650-615A47EE2C3E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeRust</RootNamespace>
-    <AssemblyName>CodeRust</AssemblyName>
+    <RootNamespace>ArraysDojo_Test</RootNamespace>
+    <AssemblyName>ArraysDojo_Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArraysDojo.cs" />
-    <Compile Include="LinqDojo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

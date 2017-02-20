@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CodeRust
 {
-    public class Class1
+    public class LinqDojo
     {
+        public void Scores(string input)
+        {
+            
+        }
     }
 }
